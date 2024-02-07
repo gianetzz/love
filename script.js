@@ -11,10 +11,8 @@ const noBtnRect = noBtn.getBoundingClientRect();
 yesBtn.addEventListener('click', () => {
     question.innerHTML = 'I miss you tooooo!!';
     buttons.innerHTML = '';
-    var img = document.createElement('img');
+    const img = document.createElement('img');
     img.src = 'pa.jpg';
-    document.getElementById('photo_container').innerHTML = '';
-    document.getElementById('photo_container').appendChild(img);
     photo_container.innerHTML = '';
     photo_container.appendChild(img);
 });
