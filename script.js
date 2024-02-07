@@ -12,7 +12,7 @@ yesBtn.addEventListener('click', () => {
     question.innerHTML = 'I miss you tooooo!!';
     buttons.innerHTML = '';
     const img = document.createElement('img');
-    img.src = 'papà.jpg';
+    img.src = 'pa.jpg';
     photo_container.innerHTML = ''; // Clear previous content of photo_container
     photo_container.appendChild(img);
 });
